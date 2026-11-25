@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alam di Jawa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+
+  <nav class="bg-emerald-700 text-white">
+    <div class="max-w-4xl mx-auto flex justify-between items-center px-4 py-4">
+      <h1 class="text-xl font-bold"> Alam di Jawa</h1>
+      <div class="space-x-4">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#galeri" class="hover:underline">Galeri</a>
+        <a href="#tentang" class="hover:underline">Tentang</a>
+      </div>
+    </div>
+  </nav>
+
+  
+  <header
+    class="relative h-[80vh] min-h-[400px] bg-cover bg-center flex items-center justify-center text-center text-white"
+    style="background-image: url('https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1600&q=80');"
+  >
+    
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative z-10 px-4">
+      <h2 class="text-3xl md:text-5xl font-bold mb-3 drop-shadow-lg">
+        Keindahan Alam Pulau Jawa
+      </h2>
+      <p class="text-lg md:text-xl mb-6 drop-shadow">
+        Gunung, pantai, dan air terjun yang memukau.
+      </p>
+      <a
+        href="#galeri"
+        class="inline-block bg-emerald-500 hover:bg-emerald-700 transition px-7 py-3 rounded-full font-bold shadow-lg"
+      >
+        Lihat Destinasi
+      </a>
+    </div>
+  </header>
+
+ 
+  <section id="about" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center text-emerald-800 mb-4">About</h2>
+
+      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <strong>Alam di Jawa</strong> adalah galeri sederhana yang memperkenalkan keindahan
+        alam Pulau Jawa — dari puncak gunung berapi, hamparan pantai, hingga air terjun
+        tersembunyi. Website ini dibuat sebagai media informasi dan inspirasi wisata alam
+        bagi siapa saja yang ingin menjelajahi Jawa.
+      </p>
+
+      
+      <div class="grid gap-5 sm:grid-cols-3 mb-10">
+        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-6 text-center">
+          <span class="text-3xl block mb-2">🏔️</span>
+          <h3 class="font-semibold text-emerald-800 mb-1">Pemandangan Memukau</h3>
+          <p class="text-sm text-gray-600">Gunung, pantai, dan air terjun dengan panorama terbaik di Indonesia.</p>
+        </div>
+        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-6 text-center">
+          <span class="text-3xl block mb-2">📍</span>
+          <h3 class="font-semibold text-emerald-800 mb-1">Lokasi Terjangkau</h3>
+          <p class="text-sm text-gray-600">Destinasi tersebar di seluruh Jawa, mudah diakses dari kota besar.</p>
+        </div>
+        <div class="bg-emerald-50 border border-emerald-100 rounded-xl p-6 text-center">
+          <span class="text-3xl block mb-2">🌱</span>
+          <h3 class="font-semibold text-emerald-800 mb-1">Alam yang Asri</h3>
+          <p class="text-sm text-gray-600">Udara segar dan lingkungan alami yang cocok untuk healing.</p>
+        </div>
+      </div>
+
+      
+      <div class="flex flex-wrap justify-center gap-10 border-t border-gray-200 pt-8">
+        <div class="text-center">
+          <h4 class="text-3xl font-bold text-emerald-700">6</h4>
+          <p class="text-sm text-gray-500">Provinsi</p>
+        </div>
+        <div class="text-center">
+          <h4 class="text-3xl font-bold text-emerald-700">100+</h4>
+          <p class="text-sm text-gray-500">Destinasi Alam</p>
+        </div>
+        <div class="text-center">
+          <h4 class="text-3xl font-bold text-emerald-700">4</h4>
+          <p class="text-sm text-gray-500">Jenis Wisata</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="galeri" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold text-center text-emerald-800 mb-6">Galeri Destinasi</h2>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+
+      <div class="bg-white rounded-lg shadow overflow-hidden hover:-translate-y-1 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=600&q=80"
+             alt="Gunung Bromo" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Gunung Bromo</h3>
+          <p class="text-sm text-gray-500">📍 Jawa Timur</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow overflow-hidden hover:-translate-y-1 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+             alt="Pantai Parangtritis" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Pantai Parangtritis</h3>
+          <p class="text-sm text-gray-500">📍 Yogyakarta</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow overflow-hidden hover:-translate-y-1 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1602140174011-2c8f19b3c9f7?auto=format&fit=crop&w=600&q=80"
+             alt="Kawah Ijen" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Kawah Ijen</h3>
+          <p class="text-sm text-gray-500">📍 Banyuwangi</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow overflow-hidden hover:-translate-y-1 hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=600&q=80"
+             alt="Air Terjun Tumpak Sewu" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="font-bold text-lg">Air Terjun Tumpak Sewu</h3>
+          <p class="text-sm text-gray-500">📍 Lumajang</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="tentang" class="bg-white py-12 text-center px-4">
+    <h2 class="text-2xl font-bold text-emerald-800 mb-3">Tentang</h2>
+    <p class="max-w-2xl mx-auto text-gray-600">
+      Website sederhana ini menampilkan beberapa keindahan alam di Pulau Jawa.
+      Dibuat dengan HTML dan Tailwind CSS.
+    </p>
+  </section>
+
+  
+  <footer class="bg-emerald-700 text-white text-center py-4">
+    <p>&copy; 2026 Alam di Jawa</p>
+  </footer>
+
+</body>
+</html>
